@@ -1,0 +1,3 @@
+---
+- name: Simple example of the template module
+  include_tasks: SendTemplate.yml

@@ -1,0 +1,21 @@
+localhost       ansible_connection=local
+
+[windows]
+windowsone
+
+[centos]
+serverone
+servertwo
+serverthree
+serverfour        ansible_connection=ssh       ansible_user=serverfour       ansible_host=192.168.209.131       ansible_become_password=eXz^3m
+
+[centos-gui]
+serverone
+servertwo
+
+[centos-minimal]
+serverthree
+serverfour
+
+[ubuntu]
+ubuntuone       ansible_connection=ssh      ansible_user=ubuntuone          ansible_host=192.168.209.133      ansible_become_password=dia1&9Y

@@ -1,0 +1,6 @@
+---
+- name: Start centos-minimal role
+  hosts: serverfour
+
+  roles:
+    - role: centos-minimal

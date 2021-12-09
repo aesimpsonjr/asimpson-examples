@@ -1,0 +1,6 @@
+---
+- name: Send copy the SimpleTemplate
+  become: yes
+  template:
+    src: SimpleTemplate.j2
+    dest: /home/{{ ansible_facts['env']['USER'] }}
